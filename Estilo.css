@@ -1,0 +1,159 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ejercicio de caja */
+.caja {
+    /* propiedades especiales que se heredan */
+    font-size: 20px;
+    color: red;
+
+    outline: 1px solid rgb(25, 216, 4);
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    border: 5px solid orange;
+    margin: 50px;
+}
+
+/* ejercicio de selectores */
+header > nav > a {
+    font-size: 50px;
+}
+
+aside a {
+    color: green;
+}
+
+/* compartir propiedad css */
+h2, .texto-centrados {
+    text-align: center;
+}
+
+
+h1 {
+    color: red;
+}
+
+.texto-grande {
+    font-size: 60px;
+    color: blue;
+}
+
+#texto-pequeno {
+    font-size: 10px;
+    color: yellow;
+}
+
+/* estilizar textos */
+
+/* text-align */
+.alineacion {
+    /* alineacion a la izquier */
+    /* text-align: left; */
+
+    /* alineacion al centro */
+    /* text-align: center; */
+
+    /* alineacion a la derecha */
+    /* text-align: right; */
+
+    /* justificar texto */
+    text-align: justify;
+}
+
+.tamanos {
+    /* tamano por defecto */
+    /* font-size: 16px; */
+    font-size: 100px;
+}
+
+.decoraciones {
+    /* subrayado */
+    /* text-decoration: underline; */
+
+    text-decoration: line-through;
+}
+
+.quitar-subrayado {
+    text-decoration: unset;
+}
+
+.transformaciones {
+    /* primera letra de cada palabra en mayuscula */
+    /* text-transform: capitalize; */
+
+    /* todo en mayuscula */
+    /* text-transform: uppercase; */
+
+    /* todo minusculas */
+    text-transform: lowercase;
+}
+
+.espaciado-de-textos {
+    /* modifica es espacio entre cada linea de texto */
+    line-height: 25px;
+    /* espaciado entre letras */
+    letter-spacing: 3px;
+    /* espaciado entre palabras */
+    word-spacing: 20px;
+}
+
+.grosor-letra {
+    /* el valor de grosor se puede manejar en un rango de 0 - 900, va de 100 en 100 */
+    font-weight: lighter;
+}
+
+.posicion-caja-1, .posicion-caja-2, .posicion-caja-3, .posicion-caja-4 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid blue;
+    margin: 20px;
+}
+
+.posicion-caja-1 {
+    /* el movimiento va a ser relativo a su posicion original */
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+.caja-padre {
+    position: relative;
+    border: 2px red solid;
+}
+.posicion-caja-2 {
+    /* el elemento pierde su posicion */
+    /* y lo podemos mover en relacion al elemento padre que tenga un relative */
+    position: absolute;
+    border-color: blueviolet;
+    bottom: 0;
+    right: 0;
+}
+
+.posicion-caja-3 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.posicion-caja-4 {
+    position: sticky;
+    top: 0;
+}
+
+.espaciado-de.textos {
+    /* Modica el espacio en cada línea de texto */
+    line-height: 25 px;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+
+}
+
+.groso-letra {
+    /* El valor del grosor se puede manejar en un rango de 0 a 900 */
+    font-weight: lighter;
+
+}   
