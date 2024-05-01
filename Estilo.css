@@ -157,3 +157,17 @@ h1 {
     font-weight: lighter;
 
 }   
+
+    .perro-imagen{
+        width: 50px;
+    }
+
+    .cuadrícula {
+        outline: 1px solid blue;
+        display: grid;
+        grid-template-columns: 200px 200px;
+    }
+
+    .tamaño {
+        width: 500px;
+    }
